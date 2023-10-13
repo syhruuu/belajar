@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log In</title>
-</head>
-<body>
-        <h2>Buat Account Baru!</h2>
+@extends('layout.master')
+
+@section('judul')
+Halaman Biodata
+@endsection
+
+@section('content')
+<h2>Buat Account Baru!</h2>
 
         <!-- <form action="/halaman yes.blade.php"> -->
             <label><b>First Name:</b></label><br>
@@ -40,5 +39,4 @@
 
             <a href="yes"><button>Sign Up</button></a>
         </form>
-</body>
-</html>
+@endsection

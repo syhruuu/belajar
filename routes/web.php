@@ -20,3 +20,6 @@ Route::get('/reg', [HomeController::class, 'reg']);
 
 Route::get('/yes', [HomeController::class, 'yes']);
 
+Route::get('/table', function() {
+    return view('table');
+});
